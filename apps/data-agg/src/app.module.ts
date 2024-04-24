@@ -4,6 +4,15 @@ import { OrderModule } from "./order/order.module";
 import { CustomerModule } from "./customer/customer.module";
 import { AddressModule } from "./address/address.module";
 import { ProductModule } from "./product/product.module";
+import { UserModelModule } from "./userModel/userModel.module";
+import { OrganizationModule } from "./organization/organization.module";
+import { WorkspaceModule } from "./workspace/workspace.module";
+import { QlikIntegrationModule } from "./qlikIntegration/qlikIntegration.module";
+import { UserConfigModule } from "./userConfig/userConfig.module";
+import { UserVerificationCodeModule } from "./userVerificationCode/userVerificationCode.module";
+import { OrganizationsWorkspaceModule } from "./organizationsWorkspace/organizationsWorkspace.module";
+import { UsersWorkspaceModule } from "./usersWorkspace/usersWorkspace.module";
+import { QlikWorkspaceModule } from "./qlikWorkspace/qlikWorkspace.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -26,6 +35,15 @@ import { AuthModule } from "./auth/auth.module";
     CustomerModule,
     AddressModule,
     ProductModule,
+    UserModelModule,
+    OrganizationModule,
+    WorkspaceModule,
+    QlikIntegrationModule,
+    UserConfigModule,
+    UserVerificationCodeModule,
+    OrganizationsWorkspaceModule,
+    UsersWorkspaceModule,
+    QlikWorkspaceModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
